@@ -162,7 +162,7 @@ next-mission */
 }
 
 .img img {
-  width: 400px;
+  width: 100%;
   height: 400px;
   left: 158px;
   top: 1185px;
@@ -389,7 +389,19 @@ responsive-design */
   .hero-section {
     flex-direction: column;
   }
+  .right-side {
+    width: 100%;
+  }
+  .right-side img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -85px;
+  }
 
+  .left-side {
+    width: 100%;
+  }
   .left-side h1 {
     font-size: 40px;
     margin-bottom: 20px;
@@ -429,6 +441,61 @@ responsive-design */
   }
   .payment h2 {
     font-size: 30px;
+  }
+  .columns {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 50px;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .hero-section {
+    flex-direction: column;
+  }
+  .right-side {
+    width: 100%;
+  }
+  .right-side img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -85px;
+  }
+  .left-side {
+    width: 100%;
+  }
+  .mission-card {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .dev-section {
+    flex-direction: column;
+  }
+  .banner {
+    background-position-y: 30%;
+  }
+  .img {
+    width: 100%;
+  }
+  .img img {
+    width: 100%;
+    height: 582px;
+    margin-bottom: 40px;
+  }
+  .dev-text {
+    width: 100%;
+    height: 311px;
+    left: 630px;
+    top: 1230px;
+    text-align: center;
+  }
+  .payment-columns {
+    flex-direction: column;
   }
   .columns {
     width: 100%;
